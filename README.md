@@ -27,7 +27,7 @@ JSON format of a donation is of the following:
 }
 
 2) (POST) /donations/add: 
-The endpoint recives an amount (Double) and persists the donation info (above format) to the MongoDB.
+The endpoint recives an amount (Integer) and persists the donation info (above format) to the MongoDB.
 The date and id of the documents are auto generated in the server side.
 
 3) (GET) /donations/amount: 
