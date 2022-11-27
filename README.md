@@ -1,8 +1,8 @@
 # Simple Donations server
 
-The project includes the files neccessary to run a web application server that handles donations
+The project includes the files neccessary to run a web application server that handles donations using Spring Boot
 
-Running Examples
+# Running Example
 * Download the zip or clone the Git repository.
 * Unzip the zip file (if you downloaded one)
 * Open Command Prompt and Change directory (cd) to folder containing pom.xml
@@ -15,7 +15,9 @@ Running Examples
 
 The server will run on port 8081 (can be changed on application.properties file).
 
-# The server includes the implemenation of the following REST API:
+# REST API:
+
+The server includes the implemenation of the following:
 
 1) (GET) /donations/get/{id}: 
 The endpoint receives a donation id (String) as a parameter and returns the donation info in a JSON object.
