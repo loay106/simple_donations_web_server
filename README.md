@@ -36,5 +36,4 @@ The endpoint receives no parameters and returns the total amount of the current 
 # Notes
 
 * Data is persisted in an embedded MongoDB
-* Java unit tests were added. The service can also be tested using curl or any other command line tool once its running.
 * The server creates a random id for the documents to store in MongoDB but it can be improved by having the MongoDB service auto generate the id field.
